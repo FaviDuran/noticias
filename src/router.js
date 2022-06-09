@@ -1,22 +1,19 @@
 import { lazy } from "react";
-
-//icons
-
 //importaré todas las vistas que vaya a utilizar
 const Noticias = lazy(() => import("./views/Noticias"));
-const llevame = {
+const listaMenu = {
 
-  title: "llévame",
+  title: "ListaMenú",
   screens: [
     {
       name: "Noticias",
       url: "/Home/Noticias",
-      component:Noticias,
-  },
-   
+      component: Noticias,
+    },
+
   ],
 };
 
 export const getRouter = () => {
-      return llevame;
+  return listaMenu;
 };
