@@ -1,5 +1,5 @@
 # Previw del Sitio Noticias desplegado en netlify
-## https://62a1e780ab07ae790d0c4e36--portal-noticias364e32.netlify.app/Home/Noticias
+## https://portal-noticias364e32.netlify.app
 
 # Getting Started with Create React App
 
